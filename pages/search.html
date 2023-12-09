@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>搜索</title>
+    <link rel="stylesheet" href="../iconfont/iconfont.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/search.css">
+
+    <script src="../iconfont/iconfont.js"></script>
+    <script src="../js/mock-min.js"></script>
+    <script src="../js/ajax.js"></script>
+    <script src="../js/server.js"></script>
+    
+    <script src="../js/search.js"></script>
+</head>
+
+<body>
+
+    <div class="text_area">
+
+
+        <!-- 搜索框以及右侧icon -->
+        <div id="oIn">
+
+           <a href="javascript:history.back(-1)"> <span  class="iconfont" style="font-size: x-large;">&#xe630;</span> </a>
+            <div class="search">
+                <i id="icon" class="iconfont" style="margin-left: 10px;"> &#xe8d6;</i>
+
+                <input id="stext" type="text" placeholder="请输入">
+
+                <!-- <i id="del" class="iconfont">&#xf0223;</i> -->
+            </div>
+
+        </div>
+
+
+        <div id="listArr">
+
+
+            <div id="search_1" class="show">
+
+                <p class="top"> <span>大家都在搜</span>   </p>
+
+                <ul id="search-ul1">
+                
+                </ul>
+
+
+                <ul id="search-ul2">
+                    <li>
+                        <p class="title">蛋仔派对</p>
+                        <p class="name">午夜魅影定制主题</p>
+
+                        <img src="../img/search1.png" alt="">
+                     
+                    </li>
+                    <li>
+                        <p class="title">小懒熊 没烦恼</p>
+                        <p class="name">定制全局主题</p>
+
+                        <img src="../img/search.png" alt="">
+                       
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+</body>
+
+</html>

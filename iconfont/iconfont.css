@@ -1,0 +1,85 @@
+@font-face {
+  font-family: "iconfont"; /* Project id  */
+  src: url('iconfont.ttf?t=1701958432493') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-ziti:before {
+  content: "\f00cb";
+}
+
+.icon-yingyong:before {
+  content: "\f0174";
+}
+
+.icon-right:before {
+  content: "\e642";
+}
+
+.icon-31fanhui1:before {
+  content: "\f0223";
+}
+
+.icon-ip:before {
+  content: "\e60f";
+}
+
+.icon-jingxuan:before {
+  content: "\e880";
+}
+
+.icon-sousuoxiao:before {
+  content: "\e8d6";
+}
+
+.icon-shouye:before {
+  content: "\e637";
+}
+
+.icon-yishu:before {
+  content: "\e607";
+}
+
+.icon-dianzan:before {
+  content: "\ec7f";
+}
+
+.icon-shoucang:before {
+  content: "\e603";
+}
+
+.icon-dingdan:before {
+  content: "\e8ae";
+}
+
+.icon-shezhi:before {
+  content: "\e8b7";
+}
+
+.icon-wode:before {
+  content: "\e8c6";
+}
+
+.icon-fanhui:before {
+  content: "\e630";
+}
+
+.icon-paihangbang:before {
+  content: "\e631";
+}
+
+.icon-rexiao:before {
+  content: "\ee17";
+}
+
+.icon-shuzicangpin:before {
+  content: "\e608";
+}
+

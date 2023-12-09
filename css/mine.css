@@ -1,0 +1,168 @@
+html
+body {
+    font-family: "\534E\6587\7EC6\9ED1";
+}
+
+header {
+    width: 100%;
+}
+
+header div {
+    margin-right: 20px;
+    display: flex;
+    justify-content: right;
+}
+
+header div span.iconfont {
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+header div span:nth-child(1).iconfont {
+    font-size: 23px;
+}
+
+.user {
+    width: 100%;
+    margin: 20px 0 0 0;
+    /* text-align: center; */
+    line-height: 40px;
+}
+
+.user .iconfont {
+    font-size: 50px;
+    color: #ccc;
+}
+
+.user .username {
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: 700;
+}
+.user .photo{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc
+}
+
+.user .span_set {
+    float: right;
+    color: black;
+    font-size: x-large;
+    line-height: normal;
+}
+.user .span_fllow{
+    float: right;
+    font-size: xx-small;
+    color: #646969;
+}
+/* .user .user_span3{
+    float: right;
+    font-size: xx-small;
+    color: #646969;
+
+} */
+
+
+.nav {
+    background-color: white;
+    height: 80px;
+    border-radius: 10px;
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav li p.second {
+    color: #a5a0a0;
+    font-size: 12px;
+}
+
+.bottom {
+    padding: 10px 0;
+    box-sizing: border-box;
+    background-color: #FAFAFA;
+}
+
+#card {
+    /* margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; */
+
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#card li {
+    /* text-align: center;
+    background-color: #FEFEFE;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box; */
+
+    width: 17%;
+    margin: 1%;
+    background-color: #FEFEFE;
+    padding: 10px;
+    line-height: 20px;
+    text-align: center;
+}
+.card .card-img{
+    width: 35px;
+    height: 35px;
+    border-radius: 10%;
+   
+}
+.card p.frist {
+    font-size: 14px;
+}
+
+.card p.second {
+    font-size: 12px;
+    color: #ccc;
+}
+
+.nav_card {
+    padding: 10px;
+    
+    margin-top: 20px;
+    line-height: 40px;
+    background-color: white;
+}
+
+.nav_card .span3{
+    float: right;
+}
+
+
+
+footer {
+
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+}
+
+footer ul {
+    padding-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+footer ul li {
+    flex: 1;
+    font-size: 14px;
+}
+
+footer .active {
+    color: #FD769F;
+}
